@@ -1,13 +1,13 @@
 import { ethers } from "hardhat";
 import { BigNumber, ContractReceipt, ContractTransaction } from "ethers";
 import chai from "chai";
-import { GeoNFT, SDRegistry, AreaCalculation } from "../typechain";
+import { GeoNFT, SDRegistry, AreaCalculation } from "../../typechain";
 import {
   centroid,
   solidityPoint,
   solidityCoordinate,
   solidityCoordinatesPolygon,
-} from "../utils/geomUtils";
+} from "../../utils/geomUtils";
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/dist/src/signer-with-address";
 import {
   GEOJSON1,

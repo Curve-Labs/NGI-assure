@@ -27,7 +27,7 @@ const accounts: HttpNetworkHDAccountsConfig = {
 
 const config: HardhatUserConfig = {
   solidity: {
-    compilers: [{ version: "0.8.13", settings: {} }],
+    compilers: [{ version: "0.8.13", settings: {} }, { version: "0.6.12", settings: {} }],
   },
   paths: {
     sources: "contracts",

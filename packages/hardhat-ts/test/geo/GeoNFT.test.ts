@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
 import chai from "chai";
 import { SignerWithAddress } from "@nomiclabs/hardhat-ethers/dist/src/signer-with-address";
-import { GeoNFT } from "../typechain";
+import { GeoNFT } from "../../typechain";
 import { GEOJSON1, GEOJSON2 } from "./mockData";
 
 const { expect } = chai;

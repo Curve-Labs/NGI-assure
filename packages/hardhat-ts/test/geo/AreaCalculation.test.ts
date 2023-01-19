@@ -1,12 +1,12 @@
 import { ethers } from "hardhat";
 import { BigNumber } from "ethers";
 import chai from "chai";
-import { AreaCalculation } from "../typechain";
+import { AreaCalculation } from "../../typechain";
 import {
   transformSolidityGeoJSON,
   solidityCoordinate,
   isPolygonType,
-} from "../utils/geomUtils";
+} from "../../utils/geomUtils";
 import {
   GEOJSON2,
   GEOJSON2_CLOCKWISE,
