@@ -1,8 +1,8 @@
 import { ethers } from "hardhat";
 import { BigNumber } from "ethers";
 import chai from "chai";
-import { GeohashUtils } from "../typechain";
-import { solidityCoordinate, centroid } from "../utils/geomUtils";
+import { GeohashUtils } from "../../typechain";
+import { solidityCoordinate, centroid } from "../../utils/geomUtils";
 import { GEOJSON2 } from "./mockData";
 
 const { expect } = chai;
