@@ -3,7 +3,7 @@ pragma solidity ^0.8.6;
 
 import "@gnosis.pm/zodiac/contracts/core/Module.sol";
 import "./Permissions.sol";
-import "../badger/IBadger.sol";
+import "./IBadger.sol";
 
 contract Roles is Module {
     address public multisend;

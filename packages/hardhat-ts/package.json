@@ -60,6 +60,7 @@
     "@gnosis.pm/zodiac": "1.0.1"
   },
   "dependencies": {
+    "@openzeppelin/contracts-upgradeable": "4.3.0",
     "@turf/centroid": "^6.5.0"
   }
 }
