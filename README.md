@@ -24,7 +24,7 @@ This mono repo contains a 2 packages to create and govern geographical datastore
     - allows anyone to create a new geographical entity and attach to it data stored on IPFS & Ceramic Network
 
 ```
-NGI assure
+NGI search
 └── packages
     ├── hardhat-ts
     └── frontend
