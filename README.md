@@ -1,4 +1,4 @@
-# NGI Assure
+# NGI Search
 
 ## Description
 
